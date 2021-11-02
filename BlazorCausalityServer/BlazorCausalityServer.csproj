@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Johan Olofsson</Authors>
+    <Company>Noisy Cricket AB</Company>
+    <Description>Blazor Server library for supporting LINQ communication with your API.</Description>
+    <Version>0.1.4-beta</Version>
+    <Copyright>Copyright 2021 by Noisy Cricket AB</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-rc.1.21452.10" />
+    <PackageReference Include="Serialize.Linq" Version="2.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.1-dev-00229" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorCausality\BlazorCausality.csproj" />
+  </ItemGroup>
+
+</Project>

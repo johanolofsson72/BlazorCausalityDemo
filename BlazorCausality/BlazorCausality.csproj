@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Johan Olofsson</Authors>
+    <Company>Noisy Cricket AB</Company>
+    <Copyright>Copyright 2021 by Noisy Cricket AB</Copyright>
+    <Description>Blazor Client library for supporting LINQ communication with your API.</Description>
+    <Version>0.1.4-beta</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0-rc.1.21452.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Serialize.Linq" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

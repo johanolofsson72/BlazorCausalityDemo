@@ -1,0 +1,40 @@
+﻿@page "/"
+@using blazor.Client.Services
+@using blazor.Shared
+@inject IMessageService MessageService
+
+<PageTitle>Test BlazorCausality</PageTitle>
+
+<h1>Hi!</h1>
+
+Try the BlazorCausality with Hosted Blazor Webassembly.
+
+@if (Messages is not null)
+{
+    <ul>
+        @foreach (var item in Messages)
+        {
+          <li>
+              <div>Id:@{@item.Id} Subject:@{@item.Subject} Body:{@item.Body} UpdatedDate:@{@item.UpdatedDate} </div>
+          </li>
+        }
+    </ul>
+}
+
+@code
+{
+    public List<Message>? Messages { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {   
+        await MessageService.TryGetAsync(
+            (List<Message> messages) =>
+            {
+                Messages = messages;
+            },
+            (string error) =>
+            {
+                Messages = null;
+            });
+    }
+}
