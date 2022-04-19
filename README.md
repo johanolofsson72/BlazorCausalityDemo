@@ -13,16 +13,16 @@ To try this fast and easy:
 
 Johan Olofsson
  
-Noisy Cricket AB
-www.noisycricket.se
-
-mail. johan.olofsson@noisycricket.se
-tele.  +46 709 161669
- 
-Besöksadress.
-Silverforsvägen 13
-372 31 Ronneby
- 
-Twitter. jooljool
+Noisy Cricket AB<br>
+https://www.noisycricket.se<br>
+<br>
+mail. johan.olofsson@noisycricket.se<br>
+tele.  +46 709 161669<br>
+ <br>
+Besöksadress.<br>
+Silverforsvägen 13<br>
+372 31 Ronneby<br>
+ <br>
+Twitter. jooljool<br>
 Facebook. Johan Olofsson
  
