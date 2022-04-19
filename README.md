@@ -19,9 +19,10 @@ https://www.noisycricket.se<br>
 mail. johan.olofsson@noisycricket.se<br>
 tele.  +46 709 161669<br>
  <br>
-Besöksadress.<br>
-Silverforsvägen 13<br>
-372 31 Ronneby<br>
+Address<br>
+Droppemålavägen 14<br>
+372 37 Ronneby<br>
+Sweden<br>
  <br>
 Twitter. jooljool<br>
 Facebook. Johan Olofsson
