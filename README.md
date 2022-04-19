@@ -3,11 +3,13 @@ Playing with linq, repositories, queryables and serialization between client and
 
 To try this fast and easy:
 
-1. clone the project
-2. Set the startup projects to blazor.Server and blazor.Console (in that order)
-3. Then click on run without debug
-4. The application will start a blazor variant and a consol app working with the same backend and a local sqlite database
-5. Thats it!
+1. Clone the project
+2. Open the solution
+3. Set the startup projects to blazor.Server and blazor.Console (in that order)
+4. Double check that the server starts on port 7199 (otherwise update the file blazor.Console/program.cs line: 10 with the correct prot your server is running on)
+5. Then click on run without debug
+6. The application will start a blazor variant and a consol app working with the same backend and a local sqlite database
+7. Thats it!
 
 Johan Olofsson
  
